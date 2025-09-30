@@ -38,7 +38,7 @@ We compare our method, VerbalTS, with the baselines on two synthetic datasets Sy
 ### 3. Demo
 Our method supports using verbal language to generate or edit the time series.
 
-https://github.com/user-attachments/assets/00f35cb7-d68b-4a25-9603-be0fcb3e4737
+https://github.com/user-attachments/assets/4b863342-3e0e-4e47-b72f-e085c59c7dc3
 
 ## Installation
 ### 1. Environment
