@@ -1,0 +1,14 @@
+### Dataset ###
+data:
+  name: custom
+  folder: ./datasets/Weather
+
+### Evaluate ###
+eval:
+  n_samples: 10
+  model_path: ""
+  batch_size: 128
+  display_interval: 1
+  device: cuda:0
+
+  cache_folder: ./cache/Weather_tmp_text

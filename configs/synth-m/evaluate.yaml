@@ -1,0 +1,14 @@
+### Dataset ###
+data:
+  name: custom
+  folder: ./datasets/synth-m
+
+### Evaluate ###
+eval:
+  n_samples: 10
+  model_path: ""
+  batch_size: 128
+  display_interval: 1
+  device: cuda:0
+
+  cache_folder: ./cache/synth-m_text

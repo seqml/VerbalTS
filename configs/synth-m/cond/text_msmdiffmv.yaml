@@ -1,0 +1,19 @@
+device: cuda:0
+cond_modal: text
+generator_pretrain_path: ""
+
+text:
+  text_projector: var_scale_diffstep_multi
+  num_stages: 3
+
+  # cliptextmodel
+  pretrain_model_path: ./save/Longclip
+  pretrain_model_dim: 768
+  textemb_hidden_dim: 512
+  text_emb: 64
+  output_type: all
+
+  # transformer encoder
+  tokenizer_path: ./save/Longclip
+  word_size: 49408
+  text_emb: 64
