@@ -17,7 +17,7 @@
 </div>
 
 <p align="center">
-<img src="https://github.com/genius77777/VerbalTS/blob/camera-ready/asset/verbalts.png" width=95%>
+<img src="https://github.com/seqml/VerbalTS/blob/main/asset/verbalts.png" width=95%>
 <p>
 <be>
 
@@ -25,14 +25,14 @@
 ### 1. Model Architecture
 We propose VerbalTS, which consists of two key components: a multi-view noise estimator and a multi-focal text processor.
 <p align="center">
-<img src="https://github.com/genius77777/VerbalTS/blob/camera-ready/asset/pipeline.png" width=95%>
+<img src="https://github.com/seqml/VerbalTS/blob/main/asset/pipeline.png" width=95%>
 <p>
 Our model considers the time series generation process from three perspectives: temporal view, spatial view, and diffusion view. The textual description is processed through multi-focal reprogramming, which integrates the relevant tokens through learnable anchor vectors. Finally, a condition adapter is applied to align the multi-semantic information from the text across the three views with the corresponding components of the time series. With the method above, we achieve fine-grained time series generation from the textual descriptions. 
 
 ### 2. Experimental Results
 We compare our method, VerbalTS, with the baselines on two synthetic datasets Synth-M, Synth-U, two real-world datasets Weather, BlindWays, and two real-world augmented datasets ETTm1, Traffic. As shown in the table below, our method significantly improves the fidelity and semantic alignment of the generated time series.
 <p align="center">
-<img src="https://github.com/genius77777/VerbalTS/blob/camera-ready/asset/main_exp.png" width=95%>
+<img src="https://github.com/seqml/VerbalTS/blob/main/asset/main_exp.png" width=95%>
 <p>
 
 ### 3. Demo
